@@ -1,0 +1,153 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+        height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content:  */
+    padding: 0px 80px;
+    padding-top: 150px;
+    gap: 60px;
+
+}
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 140px;
+    font-weight: 500;
+    line-height: 160px;
+    font-family: work sans;
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+
+
+}
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#color1{
+     background-color: rgb(17, 17, 17); 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px;
+    
+}
+#color2{
+    background-color: rgb(103, 102, 101);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#left p{
+
+    font-size: 20px;
+    width: 65%;
+    font-weight: 600;
+    color: #444;
+    line-height: 30px;
+}
+#right{
+    height: 90%;
+    width: 33%;
+    /* background-color: rgb(131, 127, 255); */
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-top h4{
+font-size: 30px;
+font-weight: 500;
+font-family: work sans;
+padding-right: 20px;
+}
+#right-top h5{
+    font-size: 16px;
+}
+#right-top h5 i{
+    color: gold;
+
+}
+#right img{
+    object-fit: cover;
+}
+#black-g{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(9, 9, 29);
+    color:#fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -18%;
+    top: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#black-g h5{
+    font-size: 26px;
+    font-weight: 500;
+
+    
+
+
+}
+#roted{
+    position: absolute;
+    left: -10%;
+    bottom: 3%;
+    /* background-color: red; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 33px;
+    font-weight: 500;
+    
+}
